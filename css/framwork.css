@@ -1,0 +1,90 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+/* start box  */
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+} 
+.d-grid {
+  display: grid;
+}
+.gab-20 {
+  gap: 20px;
+}
+/* end box  */
+/* start padding + margin  */
+.p-15 {
+  padding: 15px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+/* end padding + margin  */
+/* start color  */
+.bg-white {
+  background-color: white;
+}
+.c-black {
+  color: black;
+}
+/* start color  */
+/* start position */
+.p-relative {
+  position: relative;
+}
+/*end position */
+/* start fontt  */
+.txt-c {
+  text-align: center;
+}
+.fs-14 {
+  font-size: 14px;
+}
+/* start fontt  */
+/* start border  */
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+/* end border  */
+/* START WIDTH  */
+.w-full {
+  width: 100%;
+}
+/* end WIDTH  */
+/* start componants */
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* end componants */
+/* start medea  */
+@media (max-width : 767px) {
+  .txt-c-mopile {
+  text-align: center;
+  }
+  .block-mopile {
+    display: block;
+  }
+}
+/* end medea  */
